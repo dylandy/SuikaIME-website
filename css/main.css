@@ -1,0 +1,21 @@
+p{
+	font-weight:normal;
+	font-size: 120%;
+	line-height:150%;
+}
+
+.navbar{
+	background-color: rgb(46,76,31);
+}
+
+#suikaNav{
+	color: rgba(255,255,255,0.9);
+	font-weight:lighter;
+}
+
+#active{
+	background-color: rgba(0,0,0,0.5);
+}
+.page-header{
+  border-bottom:0px;
+}
