@@ -27,4 +27,12 @@ p{
 }
 .well{
   border-radius:0;
+  border:0;
+  box-shadow:none;
+  -webkit-box-shadow:none;
+}
+#foo{
+  position:absolute;
+  top:2048px;
+  min-height:400px;
 }
