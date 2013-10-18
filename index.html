@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Suika IME Tutorial</title>
+		<title>Suika IME</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="Chen, Yu-Ann" />
 		<meta charset="utf-8" />
-
+    <link href='img/favicon.ico' rel='icon'> <!--favicon-->
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
 		<link href="css/main.css" rel="stylesheet" media="screen">
 		<link href="css/docs.css" rel="stylesheet" media="screen">
@@ -13,12 +13,34 @@
 		<script src="js/jquery-1.9.1.min.js"></script>
 	</head>
 
-	<body>
-		<div class="well" style="position:absolute; min-height:100%; min-width:100%; padding-top:3%">
+	<body class='well'>
+		<section  id='page1'>
 			<div class="page-header">
 				<h2 style="color:gray; font-weight:100; line-height:90%;">歡迎使用</h2>
-				<h1 style="color:green; font-weight:100; line-height:90%;">西瓜輸入法</h1>
+        <h1 style="color:green; font-weight:100; line-height:90%;">西瓜輸入法</h1>
+        <br>
+        <p class='col-lg-offset-4'>
+          「 西瓜輸入法 」是安卓平台上最高效率的中文輸入法。<br>
+          - "SuikaIME" is the most effecient Chinese Input Method on Android platform.<br>
+         </p><br>
+        <a href='#page2' id='topage2' class='btn btn-success col-lg-3 col-lg-offset-8'>了解更多</a>
 			</div>
-		</div>
+     </section>
+     <hr>
+     <script>
+      var resize_window = function(){
+        $('#page1, #page2').css('height',$(window).height() + 'px');
+      }
+      jQuery(function($){
+       $('#topage2').click(function(){
+          $('html,body').animate({scrollTop: $('#page2').offset().top},800);
+       });
+       $(window).resize(resize_window);
+       resize_window();
+      });
+     </script>
+     <section id='page2'>
+
+     <section>
 	</body>
 </html>

@@ -17,5 +17,14 @@ p{
 	background-color: rgba(0,0,0,0.5);
 }
 .page-header{
-  border-bottom:0px;
+  width:80%;
+  margin:0 auto;
+  border-bottom:0;
+}
+#page1,#page2{
+  min-height:1024px;
+  min-width:100%;
+}
+.well{
+  border-radius:0;
 }
