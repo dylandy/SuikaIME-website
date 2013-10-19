@@ -10,7 +10,8 @@
 		<link href="css/main.css" rel="stylesheet" media="screen">
 		<link href="css/docs.css" rel="stylesheet" media="screen">
 		<script src="bootstrap/js/bootstrap.min.js"></script>
-		<script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src='js/main.js'></script>
 	</head>
 
 	<body class='well'>
@@ -30,18 +31,6 @@
          <a href='#page2' id='topage2' class='btn btn-success col-lg-3 col-lg-offset-8'>了解更多</a>
         </div>
      </section>
-     <script>
-      var resize_window = function(){
-        $('#page1, #page2').css('height',$(window).height() + 'px');
-      }
-      jQuery(function($){
-       $('#topage2').click(function(){
-          $('html,body').animate({scrollTop: $('#page2').offset().top},800);
-       });
-       $(window).resize(resize_window);
-       resize_window();
-      });
-     </script>
      <section id='page2'>
 
       </section>
