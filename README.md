@@ -16,9 +16,9 @@
 
 ![圖片一](img/k1.png)<br>
 ![圖片二](img/k2.png)<br>
-![圖片三](img/k3.png)<br>
+<!--![圖片三](img/k3.png)<br>
 ![圖片四](img/k4.png)<br>
-![圖片五](img/k5.png)<br>
+![圖片五](img/k5.png)<br>-->
 
 
 ##問題回報Bug report
